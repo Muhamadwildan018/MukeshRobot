@@ -10,11 +10,11 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://telegra.ph//file/04028a5c74d51feb92ba2.jpg",
-    "https://telegra.ph//file/04028a5c74d51feb92ba2.jpg",
-    "https://telegra.ph//file/04028a5c74d51feb92ba2.jpg",
-    "https://telegra.ph//file/04028a5c74d51feb92ba2.jpg",
-    "https://telegra.ph//file/04028a5c74d51feb92ba2.jpg",
+    "https://telegra.ph//file/7427929e1e589ed76e183.jpg",
+    "https://telegra.ph//file/7427929e1e589ed76e183.jpg",
+    "https://telegra.ph//file/7427929e1e589ed76e183.jpg",
+    "https://telegra.ph//file/7427929e1e589ed76e183.jpg",
+    "https://telegra.ph//file/7427929e1e589ed76e183.jpg",
 ]
 
 Mukesh = [
@@ -58,7 +58,7 @@ async def restart(client, m: Message):
         START_IMG,
         caption=f"""**ʜʏ ᴍᴇᴋ ,ɢᴡ『[{BOT_NAME}](f"t.me/{BOT_USERNAME}")』**
    ━━━━━━━━━━━━━━━━━━━
-  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ᴅᴀɴ](tg://user?id=5779185981)
+  ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ᴡɪʟᴅᴀɴ](tg://user?id=5779185981)
   
   ๏ ** ꜱᴛᴏʀᴇ :** [ꜱᴛᴏʀᴇ](https://t.me/Disney_storeDan)
    ━━━━━━━━━━━━━━━━━━━""",
