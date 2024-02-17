@@ -86,10 +86,11 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
+    [  
         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
-     ],
+       InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
+       InlineKeyboardButton(text="sᴛʀɪɴɢ", url=f"https://t.me/dan_stringbot"), 
+     ], 
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/mhmdwldnnnn"),
     ],     
