@@ -89,7 +89,6 @@ buttons = [
     [  
         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_play"),
-       InlineKeyboardButton(text="sᴛʀɪɴɢ", url=f"https://t.me/dan_stringbot"), 
      ], 
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ", url=f"https://t.me/mhmdwldnnnn"),
@@ -393,7 +392,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="🏓sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/musicsupport_dan"
+                            text="🏓sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/musik_supportdan"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"
@@ -429,7 +428,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/musicsupport_dan"
+                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/musik_supportdan"
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴩᴅᴀᴛᴇs", url=f"http://t.me/mhmdwldnnnn"
