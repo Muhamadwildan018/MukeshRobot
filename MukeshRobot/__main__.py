@@ -1090,7 +1090,7 @@ def main():
             )
         except Unauthorized:
             LOGGER.warning(
-                f"Bot isn't able to send message to @musik_supportdan, go and check!"
+                f"Bot isn't able to send message to musik_supportdan go and check!"
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
