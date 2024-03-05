@@ -1076,7 +1076,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                f"@musik_supportdan",
+                f"musik_supportdan",
                 photo=f"https://telegra.ph//file/7427929e1e589ed76e183.jpg",
                 caption=f"""
 ✨{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
