@@ -70,18 +70,18 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ʜᴀʟʟᴏ ᴍᴇᴋ `{}`, ᴀᴘᴀ ᴋᴀʙᴀʀ \nʙᴇɴᴛᴀʀ ʏᴀ ᴍᴇᴋ . . .
+ʜᴀʟʟᴏ ᴍᴇᴋ `{}`, ᴀᴘᴀ ᴋᴀʙᴀʀ \nʙᴇɴᴛᴀʀ ʏᴀ ᴍᴇᴋ . . .  
 """
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} , 🏓
-*๏ ɪ'ᴍ {}  ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ
+*ʜᴇʏ* {} 
+*ɪ'ᴍ {} ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ
 ʙᴏᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ
 ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ*
 ─────────────────
-*➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {}
-*➻ ᴛᴇʟᴀʜ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ »* {} ɢʀᴏᴜᴘs
+   *➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {}
+   *➻ ᴛᴇʟᴀʜ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ »* {} ɢʀᴏᴜᴘs
 ─────────────────
 *ᴅᴇᴠ: @mhmdwldnnnn
 
@@ -90,11 +90,11 @@ PM_START_TEXT = """
 
 buttons = [
         [
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Main_help"),
         ],
         [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ💈", callback_data="mukesh_support"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 💈", callback_data="mukesh_support"),
         ],
         [
         InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=5779185981"),
@@ -109,7 +109,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-» *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
+» *{BOT_NAME}  ᴋʟɪᴋ ᴀᴊᴀ ᴋᴀᴋ ʙᴜᴛᴛᴏɴ ɴʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴛᴀᴜ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟᴇ ᴘᴇʀɪɴᴛᴀʜ ɴʏᴀ*"""
 
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
@@ -386,7 +386,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         ],
         [
         InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=5779185981"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚙️", url=f"tg://user?id=1002111666674"),
+        InlineKeyboardButton(text="ꜱᴛᴏʀᴇ ⚙️", url=f"tg://user?id=-1002111666674"),
         ],
     [
         InlineKeyboardButton(
@@ -405,7 +405,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"), 
+        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
+                    ],
                     [
         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="mukesh_"),
                     ],
@@ -444,7 +445,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
         query.message.edit_caption(
 """✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium
 
-Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
+Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :
 """,parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -453,9 +454,9 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnnbot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnn_bot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/ceweknyadan_bot",
                     ),
                     InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/mhmdwldnnnnbot",
                     ),
@@ -501,7 +502,7 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
                 [
                     [
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/ceweknyadan")
                     ],
                     [
                          InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Music_"),
@@ -613,7 +614,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 2.ᴛᴀɴʏᴀᴋᴀɴ ꜱᴛᴏᴄᴋ ᴋᴇᴘᴀᴅᴀ ᴀᴅᴍɪɴ ꜱᴇʙᴇʟᴜᴍ ᴍᴇᴍʙᴇʟɪ
 3.ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇᴍʙᴇʟɪ ʜᴜʙ ᴀᴅᴍɪɴ ᴅɪʙᴀᴡᴀʜ ɪɴɪ.
 
-© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/musik_supportdan), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ]("https://t.me/musik_supportdan"), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -621,7 +622,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/ceweknyadan")
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -682,9 +683,9 @@ Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :*
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnnbot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnn_bot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/cewenyadan_bot",
                     ),
                     InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/mhmdwldnnnnbot",
                     ),
@@ -792,7 +793,7 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_photo(START_IMG,
-                f"Contact me in PM to get help of {module.capitalize()}",
+                f"ᴍᴏᴅᴜʟᴇ ᴍᴀɴᴀ ᴍᴇᴋ ʏᴀɴɢ ᴍᴀᴜ ʟᴜ ᴄᴇᴋ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ɴʏᴀ {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -1009,8 +1010,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 5779185981:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/userbot2030)"
-                f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com)"
+                f"\n\nʙɪsᴀ ʟᴀɴɢsᴜɴɢ ᴘᴄ ᴋᴇ ɢᴡ ʏᴀ ᴋᴀʟᴏ ᴍᴀᴜ ᴅᴏɴᴀᴛᴇ ᴜᴀɴʜ ʟᴇʙɪʜ ʟᴜ ᴡᴋᴡᴋ : [ᴡɪʟᴅᴀɴ](https://t.me/mhmdwldnnnn)",
                 parse_mode=ParseMode.MARKDOWN,
                 
             )
