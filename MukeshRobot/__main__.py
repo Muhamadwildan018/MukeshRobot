@@ -365,7 +365,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*ʜᴀɪ ᴍᴇᴋ,*\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
             "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜꜱɪᴄ + ᴊᴀᴊᴀɴ ᴛᴇʟᴇ*"
-            "\n*Bot biasa aja sama kyk yang lain.*"
+            "\n*ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋᴀʏᴀ ʏᴀɴɢ ʟᴀɪɴ.*"
             "\n\n────────────────────"
             f"\n*➥ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
@@ -399,8 +399,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan).**"
-            f"\n\nSilahkan Klik Button Di Bawah..",
+        query.message.edit_caption("**ᴅɪʙᴀᴡᴀʜ ɪɴɪ ʙᴇʙᴇʀᴀᴘᴀ ᴊᴀsᴀ ʙᴏᴛ ᴅᴀɴ ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴀʀɪ [SI DISNEY STORE](https://t.me/Disney_storeDan).**"
+            f"\n\nsɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪ ʙᴀᴡᴀʜ..",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -429,7 +429,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
 def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
-        query.message.edit_caption(f"""*✮ Kalo Kalean Mau Ngambil String di bot {BOT_NAME} String Pyrogram, Pyrogram v2, atau Telethon kalian klik aja* 
+        query.message.edit_caption(f"""*✮ ᴋᴀʟᴏ ᴋᴀʟᴇᴀɴ ᴍᴀᴜ ɴɢᴀᴍʙɪʟ sᴛʀɪɴɢ ᴅɪ ʙᴏᴛ @dan_stringbot sᴛʀɪɴɢ ᴘʏʀᴏɢʀᴀᴍ, ᴘʏʀᴏɢʀᴀᴍ ᴠ2, ᴀᴛᴀᴜ ᴛᴇʟᴇᴛʜᴏɴ ᴋᴀʟɪᴀɴ ᴋʟɪᴋ ᴀᴊᴀ* 
         /genstring .""",
             parse_mode=ParseMode.MARKDOWN,
             
@@ -443,9 +443,9 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
         )
     elif query.data=="basic_help":
         query.message.edit_caption(
-"""✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium
+"""✮ ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ ᴀᴅᴀʟᴀʜ ᴜsᴇʀʙᴏᴛ sɪᴍᴘʟᴇ ʏᴀɴɢ ᴍᴍᴜᴅᴀʜᴋᴀɴ ᴋᴀʟɪᴀɴ ᴛᴀɴᴘᴀ ʜᴀʀᴜs ᴍᴇʟᴇᴡᴀᴛɪ ᴘʀᴏsᴇs ᴅᴇᴘʟᴏʏ ʏɢ ʀᴜᴍɪᴛ & ᴅᴇɴɢᴀɴ ᴍᴏᴅᴜʟ ʏᴀɴɢ ʟᴇʙɪʜ ᴋᴇʀᴇɴ sᴇʀᴛᴀ ғᴜʟʟ ᴇᴍᴏᴊɪ ᴘʀᴇᴍɪᴜᴍ ᴊɪᴋᴀ ᴀᴋᴜɴ ᴀɴᴅᴀ ᴘʀᴇᴍɪᴜᴍ
 
-Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :
+ᴜɴᴛᴜᴋ ʟɪsᴛ ᴜsᴇʀʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ SI DISNEY STORE ʙɪsᴀ ᴋᴀʟɪᴀɴ ᴄᴇᴋ ʟɪsᴛ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ :
 """,parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -645,9 +645,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
-*Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan).
+*ᴅɪʙᴀᴡᴀʜ ɪɴɪ ʙᴇʙᴇʀᴀᴘᴀ ᴊᴀsᴀ ʙᴏᴛ ᴅᴀɴ ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴀʀɪ [SI DISNEY STORE](https://t.me/Disney_storeDan).
 
-Silahkan Klik Button Di Bawah..*
+sɪʟᴀʜᴋᴀɴ ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪ ʙᴀᴡᴀʜ..*
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -722,7 +722,7 @@ Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :*
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴋᴇᴍʙᴀʟɪ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -749,7 +749,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ᴋᴇᴍʙᴀʟɪ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
