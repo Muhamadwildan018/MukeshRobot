@@ -80,24 +80,25 @@ PM_START_TEXT = """
 ʙᴏᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ
 ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ*
 ─────────────────
+   *➻ ᴜᴩᴛɪᴍᴇ »* {}
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
-*ᴅᴇᴠ: @Dhilnihnge
+*ᴅᴇᴠ: @mhmdwldnnnn
 
 ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴄᴏᴍᴍᴀɴᴅꜱ ⚠️*
 """
 
 buttons = [
         [
-        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Main_help"),
         ],
         [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 💈", callback_data="mukesh_support"),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ💈", callback_data="mukesh_support"),
         ],
         [
-        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=5779185981"),
         InlineKeyboardButton(text="ᴅᴏɴᴀꜱɪ💰", callback_data="Main_help"),
         ],
     [
