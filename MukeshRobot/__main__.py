@@ -70,19 +70,18 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
+ʜᴀʟʟᴏ ᴍᴇᴋ `{}`, ᴀᴘᴀ ᴋᴀʙᴀʀ \nʙᴇɴᴛᴀʀ ʏᴀ ᴍᴇᴋ . . .
 """
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} 
-*ɪ'ᴍ {} ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ
+*ʜᴇʏ* {} , 🏓
+*๏ ɪ'ᴍ {}  ɢᴀ ᴀᴅᴀ ʏᴀɴɢ sᴘᴇsɪᴀʟ sᴀᴍᴀ ᴀᴊᴀ ᴋᴇᴋ ʙᴏᴛ ᴍᴜsɪᴄ ʟᴀᴇɴ
 ʙᴏᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ
 ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ*
 ─────────────────
-   *➻ ᴜᴩᴛɪᴍᴇ »* {}
-   *➻ ᴜsᴇʀs »* {}
-   *➻ ᴄʜᴀᴛs »* {}
+*➻ ᴘᴇɴɢɢᴜɴᴀ ʙᴏᴛ »* {}
+*➻ ᴛᴇʟᴀʜ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴅɪ »* {} ɢʀᴏᴜᴘs
 ─────────────────
 *ᴅᴇᴠ: @mhmdwldnnnn
 
@@ -235,7 +234,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ:</b> <code>{}</code>".format(
+            caption="ᴡɪʟᴅᴀɴ ɪᴅᴜᴘ ᴋᴏᴋ ᴍᴇᴋ  !\n<b>ɢᴡ ɢᴀ ᴛɪᴅᴜʀ ᴅᴀʀɪ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -406,8 +405,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id=5779185981"),
-                    ],
+        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"],
                     [
         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="mukesh_"),
                     ],
@@ -455,7 +453,7 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ  ɪ", url="https://t.me/mhmdwldnnnnbot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
                     InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
@@ -1072,7 +1070,7 @@ def main():
                 f"@musik_supportdan",
                 photo=f"https://telegra.ph//file/7427929e1e589ed76e183.jpg",
                 caption=f"""
-✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
+✨{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
 ๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ᴡɪʟᴅᴀɴ](tg://user?id=5779185981)
 ๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ᴡɪʟᴅᴀɴ](https://t.me/mhmdwldnnnn)
