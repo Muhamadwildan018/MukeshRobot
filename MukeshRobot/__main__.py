@@ -372,22 +372,22 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
-            "\n*➥ Developer : @Dhilnihnge.*"
+            "\n*➥ Developer : @mhmdwldnnnn.*"
             f"\n\n*➥ Klik tombol di bawah untuk mendapatkan info tentang penggunaan bot {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
         [
-        InlineKeyboardButton(text="ᴀᴍʙɪʟ ꜱᴛʀɪɴɢ 📩", callback_data="Main_help"),
+        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 📩", callback_data="Main_help"),
         ],
         [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅs ⁉️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ 💈", callback_data="Music_"),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 💈", callback_data="Music_"),
         ],
         [
-        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚙️", url=f"tg://user?id={SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=5779185981"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚙️", url=f"tg://user?id=1002111666674"),
         ],
     [
         InlineKeyboardButton(
@@ -400,13 +400,13 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI ARAB STORE](https://t.me/Arabc0de).**"
+        query.message.edit_caption("**Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan).**"
             f"\n\nSilahkan Klik Button Di Bawah..",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id=5779185981"),
                     ],
                     [
         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="mukesh_"),
@@ -452,20 +452,20 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
+                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/Spesial02Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ  ɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/Spesial03Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/Spesial04Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/mhmdwldnnnnbot",
                     ),
                     ],
                     [
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪ", url="https://t.me/ArabUltraUbot"),
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪ", url="https://t.me/Ultra02Ubot"),
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪɪ", url="https://t.me/Ultra03Ubot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪ", url="https://t.me/mhmdwldnnnn_bot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪ", url="https://t.me/cewenyadan_bot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -502,8 +502,8 @@ Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ᴧꝛᴧʙ", url=f"https://t.me/Bukan_Agamis")
+                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
                     ],
                     [
                          InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Music_"),
@@ -577,11 +577,11 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
         InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
         InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id=5779185981"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/mukeshbotzone/7"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• ᴅᴏɴᴀsɪ •", url="https://link.dana.id/qr/6l85aa18"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -615,15 +615,15 @@ def Source_about_callback(update: Update, context: CallbackContext):
 2.ᴛᴀɴʏᴀᴋᴀɴ ꜱᴛᴏᴄᴋ ᴋᴇᴘᴀᴅᴀ ᴀᴅᴍɪɴ ꜱᴇʙᴇʟᴜᴍ ᴍᴇᴍʙᴇʟɪ
 3.ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇᴍʙᴇʟɪ ʜᴜʙ ᴀᴅᴍɪɴ ᴅɪʙᴀᴡᴀʜ ɪɴɪ.
 
-© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/musik_supportdan), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ᴧꝛᴧʙ", url=f"https://t.me/Bukan_Agamis")
+                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -646,7 +646,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Music_":
         query.message.edit_caption(f"""
-*Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI ARAB STORE](https://t.me/Arabc0de).
+*Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Disney_storeDan).
 
 Silahkan Klik Button Di Bawah..*
 """,
@@ -655,7 +655,7 @@ Silahkan Klik Button Di Bawah..*
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Music_admin"),
@@ -674,27 +674,27 @@ Silahkan Klik Button Di Bawah..*
             f"""
 *✮ Ubot Premium adalah userbot simple yang mmudahkan kalian tanpa harus melewati proses deploy yg rumit & dengan modul yang lebih keren serta full emoji premium jika akun anda premium
 
-Untuk List Userbot Premium SI ARAB STORE bisa kalian cek list di bawah ini :*
+Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :*
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴧꝛᴧʙ", url=f"tg://user?id={OWNER_ID}"),
+                        InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
                     ],
                     [
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/Spesial02Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/Spesial03Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot",
                     ),
-                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/Spesial04Ubot",
+                    InlineKeyboardButton(text="ᴜʙᴏᴛ ꜱᴘᴇꜱɪᴀʟ ɪᴠ", url="https://t.me/mhmdwldnnnnbot",
                     ),
                     ],
                     [
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪ", url="https://t.me/ArabUltraUbot"),
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪ", url="https://t.me/Ultra02Ubot"),
-                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪɪ", url="https://t.me/Ultra03Ubot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪ", url="https://t.me/mhmdwldnnnn_bot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪ", url="https://t.me/cewenyadan_bot"),
+                         InlineKeyboardButton(text="ᴜʙᴏᴛ ᴜʟᴛʀᴀ ɪɪɪ", url="https://t.me/mhmdwldnnnnbot"),
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="mukesh_"),
@@ -1009,9 +1009,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5935608297:
+        if OWNER_ID != 5779185981:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/MukeshRobot)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/userbot2030)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
                 parse_mode=ParseMode.MARKDOWN,
                 
@@ -1069,16 +1069,14 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                f"@{SUPPORT_CHAT}",
-                photo=f"{START_IMG}",
+                f"@musik_supportdan",
+                photo=f"https://telegra.ph//file/7427929e1e589ed76e183.jpg",
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐌ᴜᴋᴇsʜ**
-**ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
-**ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
-**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
-**ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ:** `{pyrover}`
+๏ **ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ʙʏ :** [ᴡɪʟᴅᴀɴ](tg://user?id=5779185981)
+๏ ** ᴅᴇᴠᴇʟᴏᴘᴇʀ :** [ᴡɪʟᴅᴀɴ](https://t.me/mhmdwldnnnn)
+๏ ** ꜱᴜᴘᴘᴏʀᴛ :** [ꜱᴛᴏʀᴇ](https://t.me/Disney_storeDan)
 ━━━━━━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
