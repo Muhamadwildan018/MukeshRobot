@@ -363,8 +363,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*Hai Mek,*\n  *Ini adalah {dispatcher.bot.first_name}*"
-            "\n*Bot Manage + Music + Generated String*"
+        query.message.edit_caption(f"*ʜᴀɪ ᴍᴇᴋ,*\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
+            "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜꜱɪᴄ + ᴊᴀᴊᴀɴ ᴛᴇʟᴇ*"
             "\n*Bot biasa aja sama kyk yang lain.*"
             "\n\n────────────────────"
             f"\n*➥ ᴜᴩᴛɪᴍᴇ »* {uptime}"
@@ -372,7 +372,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➥ ᴄʜᴀᴛs »* {sql.num_chats()}"
             "\n────────────────────"
             "\n*➥ Developer : @mhmdwldnnnn.*"
-            f"\n\n*➥ Klik tombol di bawah untuk mendapatkan info tentang penggunaan bot {dispatcher.bot.first_name}.*",
+            f"\n\n*➥ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏ ᴛᴇɴᴛᴀɴɢ ᴘᴇɴɢɢᴜɴᴀᴀɴ ʙᴏᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -386,7 +386,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         ],
         [
         InlineKeyboardButton(text="ᴅᴇᴠ 👑", url=f"tg://user?id=5779185981"),
-        InlineKeyboardButton(text="ꜱᴛᴏʀᴇ ⚙️", url=f"tg://user?id=-1002111666674"),
+        InlineKeyboardButton(text="ꜱᴛᴏʀᴇ ⚙️", url=f"tg://user?id=1002111666674"),
         ],
     [
         InlineKeyboardButton(
@@ -502,7 +502,7 @@ Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :
                 [
                     [
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/ceweknyadan")
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
                     ],
                     [
                          InlineKeyboardButton(text="ᴜʙᴏᴛ ᴘʀᴇᴍɪᴜᴍ", callback_data="Music_"),
@@ -622,7 +622,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="• ᴅʜɪʟ sɪ ᴅᴀɴ", url=f"tg://user?id=5779185981"),
-                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/ceweknyadan")
+                        InlineKeyboardButton(text="• ᴜʙɪ ꜱɪ ɴᴏʏ", url=f"https://t.me/cewenyadan")
                     ],
                     [
                          InlineKeyboardButton(text="◁ ᴋᴇᴍʙᴀʟɪ", callback_data="Music_"),
@@ -722,7 +722,7 @@ Untuk List Userbot Premium SI DISNEY STORE bisa kalian cek list di bawah ini :*
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• ᴋᴇᴍʙᴀʟɪ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -749,7 +749,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text=" ᴋᴇᴍʙᴀʟɪ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
