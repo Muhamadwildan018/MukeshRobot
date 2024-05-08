@@ -363,9 +363,9 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*ʜᴀʟʟᴏ ᴍᴇᴋ,*\n  *ɪɴɪ ᴀᴅᴀʟᴀʜ {dispatcher.bot.first_name}*"
-            "\n*ʙᴏᴛ ᴍᴀɴᴀɢᴇ + ᴍᴜsɪᴄ + ɢᴇɴᴇʀᴀᴛᴇᴅ sᴛʀɪɴɢ*"
-            "\n*ʙᴏᴛ ʙɪᴀsᴀ ᴀᴊᴀ sᴀᴍᴀ ᴋʏᴋ ʏᴀɴɢ ʟᴀɪɴ.*"
+        query.message.edit_caption(f"*Hai Mek,*\n  *Ini adalah {dispatcher.bot.first_name}*"
+            "\n*Bot Manage + Music + Generated String*"
+            "\n*Bot biasa aja sama kyk yang lain.*"
             "\n\n────────────────────"
             f"\n*➥ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➥ ᴜsᴇʀs »* {sql.num_users()}"
@@ -399,7 +399,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "mukesh_support":
-        query.message.edit_caption("**Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI ARAB STORE](https://t.me/Arabc0de).**"
+        query.message.edit_caption("**Dibawah ini beberapa jasa bot dan jajanan telegram dari [SI DISNEY STORE](https://t.me/Arabc0de).**"
             f"\n\nSilahkan Klik Button Di Bawah..",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
